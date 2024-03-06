@@ -14,7 +14,7 @@ GMX:
     host: http://127.0.0.1:8545
 DydxV4:
   IndexerConfig:
-    httpsEndpoint: https://indexer.dydx.trade
-    wssEndpoint: wss://indexer.dydx.trade/v4/w
+    httpsEndpoint: https://indexer.dydx.trade/
+    wssEndpoint: wss://indexer.dydx.trade/v4/ws
   ValidatorConfig:
     restEndpoint: https://dydx-ops-rpc.kingnodes.com:443
