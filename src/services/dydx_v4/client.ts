@@ -18,7 +18,7 @@ export const dydxV4Client = async () => {
 		config.get('DydxV4.ValidatorConfig.restEndpoint'),
 		'dydx-mainnet-1',
 		{
-			CHAINTOKEN_DENOM: 'adv4tnt',
+			CHAINTOKEN_DENOM: 'adydx',
 			USDC_DENOM:
 				'ibc/8E27BA2D5493AF5636760E354E46004562C46AB7EC0CC4C1CA14E9E20E2545B5',
 			USDC_GAS_DENOM: 'uusdc',
