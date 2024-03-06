@@ -15,7 +15,7 @@ export const dydxV4CreateOrder = async (orderParams: dydxV4OrderParams) => {
 	const market = orderParams.market;
 	const type = OrderType.MARKET;
 	const side = orderParams.side;
-	const timeInForce = OrderTimeInForce.IOC;
+	const timeInForce = OrderTimeInForce.FOK;
 	const execution = OrderExecution.DEFAULT;
 	const slippagePercentage = 0.05;
 	const price =
